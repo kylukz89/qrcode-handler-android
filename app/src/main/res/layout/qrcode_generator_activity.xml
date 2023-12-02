@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#777"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gerar"
+        android:text="GERAR"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/qrCodeImageView"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
